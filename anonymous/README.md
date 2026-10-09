@@ -2,7 +2,7 @@
 
 **Target IP:** `10.130.136.84`  
 **Difficoltà:** Medium  
-**Formato disponibile:** [Scarica il Writeup in PDF](Anonymous-TryHackMe-Writeup.pdf)
+**Formato disponibile:** [Writeup:](Anonymous-TryHackMe-Writeup.pdf)
 
 ## Panoramica della Room
 Writeup dettagliato della stanza **Anonymous**, focalizzato sull'abuso di un servizio FTP con login anonimo e directory scrivibili, sfruttato per alterare uno script di pulizia automatica (cron job) ed ottenere una reverse shell. L'escalation dei privilegi a root è stata completata sfruttando un binario SUID non standard (`/usr/bin/env`).
